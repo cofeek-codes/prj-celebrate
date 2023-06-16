@@ -1,0 +1,116 @@
+/* defaults */
+*,  *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style: none;
+}
+button {
+    outline: none;
+
+
+}
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+/* defaults */
+
+/* header */
+.header {
+
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: green;
+}
+
+.logo img {
+width: 50px;
+height: 50px;
+}
+
+nav>ul {
+display: flex;
+align-items: center;
+}
+
+nav>ul li:not(:last-child) {
+margin-right: 15px;
+}
+.nav__list li a {
+}
+.nav__list li a:hover {
+    text-decoration: underline;
+
+}
+/* header */
+
+
+/* main */
+.hero {
+    margin-top: 35px;
+}
+.hero__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero__title {
+    font-size: 45px;
+
+}
+.service {
+    margin-top: 25px;
+}
+.service__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
+.service__title {
+    font-size: 25px;
+margin-bottom: 15px;
+}
+.service__steps li {
+margin-bottom: 15px;
+font-size: 25px;
+animation: step 1s ease 0s 1 normal forwards;
+
+}
+@keyframes step {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+
+
+/* locations */
+.locations__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locations__title {
+    font-size: 35px;
+}
+.locations__cards {
+
+}
+
+.locations__card {
+
+}
+/* locations */
+
+/* main */
