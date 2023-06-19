@@ -129,14 +129,25 @@ nav>ul li:not(:last-child) {
     flex-direction: column;
 }
 
+.locations__search {
+    margin: 0 0 50px 0;
+
+}
+
+#search__field {
+    border: 1px solid #000;
+}
+
 .locations__title {
     font-size: 35px;
     margin-bottom: 75px;
 }
+
 .title {
     font-size: 35px;
     margin-bottom: 75px;
 }
+
 .locations__cards {
     display: flex;
 }
@@ -201,10 +212,10 @@ nav>ul li:not(:last-child) {
 /* reports */
 /*sub sale*/
 .sale__sub__wrapper {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
@@ -213,32 +224,36 @@ form {
     align-items: center;
 
 }
+
 form input {
-    border:1px solid #000;
-    margin-right:15px;
+    border: 1px solid #000;
+    margin-right: 15px;
 }
- /*sub sale*/
+
+/*sub sale*/
 
 
 /* main */
 
 main {
-    position:relative;
-
+    position: relative;
+    /* margin-bottom: 75px; */
 }
 
 /*footer*/
 .footer {
-    position:absolute;
-    left:0;
-    bottom:-150px;
-    width:100%;
-    background:green;
+    position: absolute;
+    left: 0;
+    bottom: -150px;
+    width: 100%;
+    background: green;
 }
+
 .footer__wrapper {
     height: 120px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 /*footer*/
