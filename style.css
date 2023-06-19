@@ -133,7 +133,10 @@ nav>ul li:not(:last-child) {
     font-size: 35px;
     margin-bottom: 75px;
 }
-
+.title {
+    font-size: 35px;
+    margin-bottom: 75px;
+}
 .locations__cards {
     display: flex;
 }
@@ -156,7 +159,7 @@ nav>ul li:not(:last-child) {
 
 /* reports */
 .reports {
-    margin-top: 50px;
+    margin: 50px 0 0 0;
 }
 
 .reports__wrapper {
@@ -196,7 +199,46 @@ nav>ul li:not(:last-child) {
 }
 
 /* reports */
+/*sub sale*/
+.sale__sub__wrapper {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
 
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form input {
+    border:1px solid #000;
+    margin-right:15px;
+}
+ /*sub sale*/
 
 
 /* main */
+
+main {
+    position:relative;
+
+}
+
+/*footer*/
+.footer {
+    position:absolute;
+    left:0;
+    bottom:-150px;
+    width:100%;
+    background:green;
+}
+.footer__wrapper {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*footer*/
