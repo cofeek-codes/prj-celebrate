@@ -166,6 +166,23 @@ nav>ul li:not(:last-child) {
 
 .locations__card figcaption {}
 
+.locations__button {
+    margin-top: 15px;
+    border: 1px solid #000;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: .3s ease all;
+
+
+
+}
+
+.locations__button:hover {
+    background: #000;
+    color: #fff;
+}
+
 /* locations */
 
 /* reports */
@@ -237,8 +254,79 @@ form input {
 
 main {
     position: relative;
-    /* margin-bottom: 75px; */
 }
+
+/* booking */
+form {
+    font-size: 48px;
+    font-weight: 700;
+    display: grid;
+    margin: 0 auto;
+    justify-items: center;
+    gap: 10px;
+}
+
+.form__grid {
+    display: grid;
+    padding: 25px;
+    background-color: green;
+    border-radius: 15px;
+    font-size: 24px;
+    justify-content: center;
+    color: #fff;
+    gap: 10px;
+}
+
+select {
+    border-radius: 15px;
+}
+
+input {
+    border-radius: 15px;
+}
+
+button {
+    border-radius: 15px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.region {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.region select {
+    font-size: 24px;
+    text-align: right;
+}
+
+.date {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.date input {
+    font-size: 24px;
+    text-align: right;
+}
+
+.count__children {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.counter {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+/* booking */
+
+
+
 
 /*footer*/
 .footer {
