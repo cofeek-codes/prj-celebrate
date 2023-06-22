@@ -37,6 +37,16 @@ a:visited {
     background: green;
 }
 
+@media (max-width:360px) {
+    .logo {
+        display: none;
+    }
+
+    .nav {
+        font-size: 12px;
+    }
+}
+
 .logo img {
     width: 50px;
     height: 50px;
@@ -73,9 +83,18 @@ nav>ul li:not(:last-child) {
 
 }
 
+
+
 .hero__title {
     font-size: 45px;
 
+}
+
+
+@media (max-width:360px) {
+    .title {
+        font-size: 15px;
+    }
 }
 
 .service {
@@ -101,6 +120,12 @@ nav>ul li:not(:last-child) {
 
 }
 
+@media (max-width:360px) {
+    .service__steps * {
+        font-size: 12px;
+    }
+}
+
 .service__steps li:hover .service__steps ul li span {
     background: #000;
     color: #fff;
@@ -120,6 +145,15 @@ nav>ul li:not(:last-child) {
 }
 
 
+@media (max-width:360px) {
+    .locations__cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 15px 0;
+    }
+}
 
 /* locations */
 .locations__wrapper {
@@ -201,6 +235,12 @@ nav>ul li:not(:last-child) {
     font-size: 35px;
 }
 
+@media (max-width:360px) {
+    .reports__cards {
+        flex-direction: column;
+    }
+}
+
 .reports__cards {
     display: flex;
     justify-content: center;
@@ -257,6 +297,26 @@ main {
 }
 
 /* booking */
+
+@media (max-width:360px) {
+    form {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formBuy {
+        font-size: 21px;
+    }
+
+
+    .date input {
+        font-size: 21px;
+    }
+}
+
 form {
     font-size: 48px;
     font-weight: 700;
@@ -297,12 +357,15 @@ button {
 }
 
 .region {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .region select {
-    font-size: 24px;
+    font-size: 21px;
+    margin: 5px 0;
     text-align: right;
 }
 
@@ -385,6 +448,13 @@ button {
 /* modal */
 
 /*footer*/
+
+@media (max-width:360px) {
+    .footer__wrapper {
+        flex-direction: column;
+    }
+}
+
 .footer {
     position: absolute;
     left: 0;
